@@ -10,13 +10,17 @@ sudo mv kustomize /usr/local/bin/
 
 ```
 cd manifest
+```
 kubectl apply -f .\namespace.yaml
 ```
 cd manifest\ind\blue
+```
 kubectl apply -f .\deployment.yaml
 ```
 cd ..
+```
 cd overlays\dev
+```
 kubectl apply -k .
 ```
 
