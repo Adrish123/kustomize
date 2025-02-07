@@ -18,10 +18,10 @@ cd manifest\ind\blue
 kubectl apply -f .\deployment.yaml
 ```
 cd ..
-```
+
 cd overlays\dev
 ```
 kubectl apply -k .
 ```
 
-![image](https://github.com/user-attachments/assets/0c4de4dc-832d-4f39-90b1-3f1fc09dc463)
+![image](https://github.com/user-attachments/assets/ccb91248-d266-4bd4-9acd-4d934f0d0e56)
