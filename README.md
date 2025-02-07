@@ -29,5 +29,5 @@ kubectl apply -k .
 
 Verify results to check if the resource limits have been modified in the deployment:
 ```
-kubectl describe deployment ngnix-app -n my-ns
+kubectl describe deployment nginx-app -n my-ns
 ```
