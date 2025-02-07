@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sample-app
-  namespace: default
+  name: nginx-app
+  namespace: my-ns
 spec:
   template:
     spec:
       containers:
-        - name: sample-app
+        - name: nginx-app
           resources:
             requests:
-              memory: "512Mi"
-              cpu: "500m"
+              memory: "264Mi"
+              cpu: "250m"
             limits:
               memory: "1Gi"
-              cpu: "1" 
+              cpu: "1"
